@@ -1,7 +1,7 @@
 # ml-project-structure
 
 ```
-mlops_template/
+ml-project-structure/
 ├── LICENSE     
 ├── README.md                  
 ├── Makefile                     # Makefile with commands like `make data` or `make train`                   

@@ -1,4 +1,7 @@
-# ml-project-structure
+# ML-project-structure
+
+Inspired from (with few changes):
+1. [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)
 
 ```
 ml-project-structure/

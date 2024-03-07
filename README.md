@@ -7,7 +7,11 @@ Inspired from (with few changes):
 ml-project-structure/
 ├── LICENSE     
 ├── README.md                  
-├── Makefile                     # Makefile with commands like `make data` or `make train`                   
+├── Makefile                     # Makefile with commands like `make data` or `make train`
+|
+├── configs                      # Config files (models and training hyperparameters)
+│   └── model1.yaml
+│   └── config.ini                  
 ├── configs                      # Config files (models and training hyperparameters)
 │   └── model1.yaml
 │   └── config.ini

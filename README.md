@@ -10,9 +10,7 @@ ml-project-structure/
 ├── Makefile
 ├── requirements.txt                       
 ├── setup.py                     
-├── startup.sh  
-├── .github                      
-│   └── workflows                                        
+├── startup.sh                                       
 ├── configs                      
 │   ├── model1.yaml
 │   ├── config.ini                  

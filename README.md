@@ -4,16 +4,15 @@ Inspired from (with few changes): [Cookiecutter Data Science](http://drivendata.
 
 ```
 ml-project-structure/
-├── .github                      
-│   └── workflows                
-│       ├── python-publish.yml  
-│       └── makefile.yml         
 ├── Dockerfile                   
 ├── LICENSE     
 ├── README.md                  
-├── Makefile                     
+├── Makefile
+├── requirements.txt                       
 ├── setup.py                     
-├── startup.sh                   
+├── startup.sh  
+├── .github                      
+│   └── workflows                                        
 ├── configs                      
 │   ├── model1.yaml
 │   ├── config.ini                  
@@ -28,9 +27,7 @@ ml-project-structure/
 ├── model_weights                
 ├── notebooks                    
 ├── references                   
-├── reports                      
-│   └── figures                  
-├── requirements.txt             
+├── reports                                                 
 └── src                          
     ├── __init__.py              
     ├── data_preprocessing       
@@ -65,7 +62,6 @@ ml-project-structure/
     │   └── misc.py   
     └── visualization        
         └── visualize.py   
-
 ```
 
 The **configs** folder contains all the configuration files, such as model hyperparameters.

@@ -1,5 +1,6 @@
 # ml-project-structure
 
+```
 mlops_template/
 ├── LICENSE     
 ├── README.md                  
@@ -48,3 +49,4 @@ mlops_template/
     └── visualization        # Scripts to create exploratory and results oriented visualizations.
         ├── evaluation.py        
         └── exploration.py       
+```

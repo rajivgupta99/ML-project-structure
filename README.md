@@ -9,7 +9,10 @@ ml-project-structure/
 ├── README.md                  
 ├── Makefile                     # Makefile with commands like `make data` or `make train`                   
 ├── configs                      # Config files (models and training hyperparameters)
-│   └── model1.yaml              
+│   └── model1.yaml
+│   └── config.ini
+│   └── config.py
+│   └── .env   
 │
 ├── data                         
 │   ├── external                 # Data from third party sources.
@@ -19,7 +22,7 @@ ml-project-structure/
 │
 ├── docs                         # Project documentation.
 │
-├── models                       # Trained and serialized models.
+├── model_weights                # Pre-Trained and serialized models.
 │
 ├── notebooks                    # Jupyter notebooks.
 │
@@ -32,7 +35,7 @@ ml-project-structure/
 └── src                          # Source code for use in this project.
     ├── __init__.py              # Makes src a Python module.
     │
-    ├── data                     # Data engineering scripts.
+    ├── data_preprocessing       # Data engineering scripts.
     │   ├── build_features.py    
     │   ├── cleaning.py          
     │   ├── ingestion.py         
@@ -40,16 +43,30 @@ ml-project-structure/
     │   ├── splitting.py         
     │   └── validation.py        
     │
-    ├── models                   # ML model engineering (a folder for each model).
-    │   └── model1      
-    │       ├── dataloader.py    
-    │       ├── hyperparameters_tuning.py 
-    │       ├── model.py         
-    │       ├── predict.py       
-    │       ├── preprocessing.py 
-    │       └── train.py         
+    ├── imagegeneration          # Use Case 1             
+    │   └── __init__.py
+    │   └── hyperparameters_tuning.py 
+    │   └── imagegeneration.py
+    │   └── predict.py
+    │   └── preprocessing.py
+    │   └── train.py
+    │ 
+    ├── textgeneration            # Use Case 2        
+    │   └── __init__.py
+    │   └── hyperparameters_tuning.py 
+    │   └── textgeneration.py
+    │   └── predict.py
+    │   └── preprocessing.py
+    │   └── train.py
+    |
+    ├── utils                  
+    │   └── __init__.py
+    │   └── common.py 
+    │   └── data_manipulation.py
+    │   └── data_operations.py
+    │   └── misc.py   
     │
     └── visualization        # Scripts to create exploratory and results oriented visualizations.
-        ├── evaluation.py        
-        └── exploration.py       
+        ├── visualize.py       
+            
 ```

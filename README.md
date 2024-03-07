@@ -3,7 +3,7 @@
 Inspired from (with few changes): [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)
 
 ```
-ml-project-structure/
+ML-project-structure/
 ├── Dockerfile                   
 ├── LICENSE     
 ├── README.md                  
